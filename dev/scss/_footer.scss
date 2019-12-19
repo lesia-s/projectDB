@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: $footerHeight;
+    font-size: 15px;
+    color: $whiteColor;
+    background-color: $primaryColor;
+  
+    .container {
+      text-indent: 1.5em;
+      height: 100%;
+      line-height: $footerHeight;
+    }
+  }

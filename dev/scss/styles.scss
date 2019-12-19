@@ -1,0 +1,42 @@
+$blackColor: #333;
+$whiteColor: #fff;
+$greyColor: #f9f3c1;
+$primaryColor: #005236;
+$secondaryColor: #bc4f07;
+$successColor: #87bf0a;
+$errorColor: #e82c0c;
+$moreColor: #20686c;
+$freeSpace: 15px;
+$headerHeight: 49px;
+$footerHeight: 49px;
+$borderRadius: 2px;
+
+@import 'reset';
+@import 'grid';
+@import 'typography';
+@import 'forms';
+@import 'links';
+@import '../../node_modules/medium-editor/dist/css/medium-editor';
+@import '../../node_modules/medium-editor/dist/css/themes/default';
+
+
+html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    color: $blackColor;
+    background-color: lighten($greyColor, 7);
+    padding-top: $headerHeight + $freeSpace;
+}
+
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'components/post';
+@import 'components/auth';
