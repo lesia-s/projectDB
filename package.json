@@ -35,7 +35,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-nodemon": "^2.4.2",
     "gulp-uglifyjs": "^0.6.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "medium-editor": "^5.23.3",
     "mongoose": "^5.8.1",
     "mongoose-url-slugs": "^1.0.2",
